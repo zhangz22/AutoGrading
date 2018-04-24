@@ -1,6 +1,7 @@
 from Box import Box
 import cv2
 
+
 class AnswerSheet(object):
     def __init__(self,myCentre=(0.0,0.0),myAnswerArea = 0.0):
         self.centre = myCentre
